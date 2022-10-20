@@ -1,0 +1,13 @@
+@import "base/variables";
+@import "base/mixins";
+
+:root {
+  --main-color: blue;
+
+}
+
+.gay {
+  /*  color: $main-color;*/
+  color: var(--main-color);
+
+}
