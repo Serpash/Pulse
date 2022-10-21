@@ -1,13 +1,10 @@
 @import "base/variables";
 @import "base/mixins";
-
-:root {
-  --main-color: blue;
-
+*{
+  font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
-.gay {
-  /*  color: $main-color;*/
-  color: var(--main-color);
-
+.container{
+  max-width: 950px;
+  margin: 0 auto;
 }
