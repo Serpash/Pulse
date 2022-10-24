@@ -14,22 +14,33 @@
     margin-top: 60px;
     width: 100%;
     display: flex;
+
     justify-content: space-between;
   }
 
   &__icon {
-    width: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 238px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 300;
+    font-size: 14px;
     color: #0D0D0D;
+
     span{
+      margin: 35px 0 20px 0;
       font-weight: 700;
       font-size: 18px;
-      margin: 35px 0 20px 0;
+      line-height: 29px;
     }
 
     img {
-      width: 42px;
+      display: block;
+      margin: 0 auto;
+      width: 70px;
+    }
+    a{
+      color: #FF0000;
     }
   }
 }
