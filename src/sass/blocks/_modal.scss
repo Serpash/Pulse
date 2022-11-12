@@ -46,6 +46,19 @@
   &_mini {
     min-height: 140px;
   }
+
+  .error {
+    &:nth-child(2n-1) {
+
+      border: 1px solid red;
+      text-align: center;
+    }
+  label{
+    margin-bottom: 10px;
+    text-align: center;
+    border: none;
+  }
+  }
 }
 
 #consultation, #order, #thanks {

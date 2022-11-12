@@ -26,8 +26,9 @@
     font-weight: 300;
     font-size: 14px;
     color: #0D0D0D;
+    animation-name: fade-in;
 
-    span{
+    span {
       margin: 35px 0 20px 0;
       font-weight: 700;
       font-size: 18px;
@@ -39,8 +40,16 @@
       margin: 0 auto;
       width: 70px;
     }
-    a{
+
+    a {
       color: #FF0000;
+    }
+
+    #animated {
+      animation-name: heartBeat;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+
     }
   }
 }
