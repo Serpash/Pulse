@@ -1,0 +1,71 @@
+@media(max-width: 320px) {
+  .header {
+    align-items: normal;
+
+    &__phone {
+      font-size: 13px;
+    }
+
+    &__logo {
+      img {
+        width: 74%;
+      }
+    }
+
+    &__official {
+      display: none;
+    }
+  }
+  .button {
+    width: max-content;
+
+    &_main {
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+    &_submit{
+      margin-left: 44px;
+    }
+  }
+  .promo {
+    &__header {
+      font-size: 24px;
+
+    }
+
+    &__subheader {
+      font-size: 14px;
+      margin-top: 7px;
+    }
+
+    &__icons {
+      width: 320px;
+    }
+
+    &__link {
+      margin-right: 64px;
+    }
+  }
+  .benefits {
+    &__icons {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__icon {
+      img {
+        margin-top: 17px;
+      }
+    }
+  }
+  .title{
+    &_left{
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+  .consultation{
+    &__descr{
+      display: none;
+    }
+  }
+}
